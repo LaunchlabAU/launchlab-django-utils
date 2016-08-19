@@ -5,8 +5,8 @@ LaunchLab Django Utils
 .. image:: https://badge.fury.io/py/ll-dj-utils.png
     :target: https://badge.fury.io/py/ll-dj-utils
 
-.. image:: https://travis-ci.org/dpretty/ll-dj-utils.png?branch=master
-    :target: https://travis-ci.org/dpretty/ll-dj-utils
+.. image:: https://travis-ci.org/LaunchlabAU/ll-dj-utils.png?branch=master
+    :target: https://travis-ci.org/LaunchlabAU/ll-dj-utils
 
 Useful bits and pieces for Django projects.
 

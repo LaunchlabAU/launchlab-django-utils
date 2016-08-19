@@ -37,7 +37,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Dave Pretty',
     author_email='david@launchlab.com.au',
-    url='https://github.com/dpretty/ll-dj-utils',
+    url='https://github.com/LaunchlabAU/ll-dj-utils',
     packages=[
         'll_dj_utils',
     ],
