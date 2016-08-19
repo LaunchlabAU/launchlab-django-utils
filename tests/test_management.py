@@ -17,7 +17,7 @@ class CreateSuperusersAndEmailPassword(TestCase):
 
     def test_message_argument_required(self):
         out = StringIO()
-        with self.assertRaisesRegexp(CommandError, 'too few arguments'):
+        with self.assertRaisesRegexp(CommandError, '(too few arguments|the following arguments are required: email)'):
             call_command(self.command_name, stdout=out)
 
     def test_message_users_created(self):
@@ -28,7 +28,7 @@ class CreateSuperusersAndEmailPassword(TestCase):
     def test_message_user_exists(self):
         out = StringIO()
         call_command(self.command_name, self.email_address, stdout=out)
-        with self.assertRaisesRegexp(CommandError, 'UNIQUE constraint failed'):
+        with self.assertRaisesRegexp(CommandError, '(UNIQUE constraint failed|column email is not unique)'):
             call_command(self.command_name, self.email_address, stdout=out)
 
     def test_user_created(self):
