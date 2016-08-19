@@ -23,7 +23,7 @@ try:
         SITE_ID=1,
         MIDDLEWARE_CLASSES=(),
         AUTH_USER_MODEL='authtools.User',
-        DEFAULT_FROM_USER='admin@example.org'
+        DEFAULT_FROM_EMAIL='admin@example.org'
     )
 
     try:

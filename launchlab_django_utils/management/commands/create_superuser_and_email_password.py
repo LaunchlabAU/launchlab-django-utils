@@ -29,7 +29,7 @@ class Command(BaseCommand):
             email = options['email'][0]
             password = User.objects.make_random_password()
             User.objects.create_superuser(email=email, password=password)
-            send_mail('Superuser password', password, settings.DEFAULT_FROM_USER, [email])
+            send_mail('Superuser password', password, settings.DEFAULT_FROM_EMAIL, [email])
             self.stdout.write(self.style.SUCCESS('user created'))
         except IntegrityError as e:
             raise CommandError(e)
