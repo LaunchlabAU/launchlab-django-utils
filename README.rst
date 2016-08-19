@@ -8,6 +8,9 @@ LaunchLab Django Utils
 .. image:: https://travis-ci.org/LaunchlabAU/launchlab-django-utils.png?branch=master
     :target: https://travis-ci.org/LaunchlabAU/launchlab-django-utils
 
+.. image:: https://coveralls.io/repos/github/LaunchlabAU/launchlab-django-utils/badge.svg?branch=master
+    :target: https://coveralls.io/github/LaunchlabAU/launchlab-django-utils?branch=master
+
 Useful bits and pieces for Django projects.
 
 Documentation
