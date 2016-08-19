@@ -18,9 +18,12 @@ try:
             "django.contrib.contenttypes",
             "django.contrib.sites",
             "launchlab_django_utils",
+            "authtools",
         ],
         SITE_ID=1,
         MIDDLEWARE_CLASSES=(),
+        AUTH_USER_MODEL='authtools.User',
+        DEFAULT_FROM_USER='admin@example.org'
     )
 
     try:

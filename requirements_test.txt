@@ -5,4 +5,4 @@ flake8>=2.1.0
 tox>=1.7.0
 
 
-# Additional test requirements go here
+django-authtools>=1.5.0
