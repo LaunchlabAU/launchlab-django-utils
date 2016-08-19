@@ -7,3 +7,4 @@ History
 ++++++++++++++++++
 
 * First release on PyPI.
+* create_superuser_and_email_password management command.
