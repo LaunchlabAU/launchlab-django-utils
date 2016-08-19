@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_ll-dj-utils
+test_launchlab-django-utils
 ------------
 
-Tests for `ll-dj-utils` models module.
+Tests for `launchlab-django-utils` models module.
 """
 
 from django.test import TestCase
 
-from ll_dj_utils import models
+from launchlab_django_utils import models
 
 
-class TestLl_dj_utils(TestCase):
+class Testlaunchlab_django_utils(TestCase):
 
     def setUp(self):
         pass

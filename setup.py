@@ -31,21 +31,21 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='ll-dj-utils',
+    name='launchlab-django-utils',
     version=version,
     description="""Useful bits and pieces for Django projects.""",
     long_description=readme + '\n\n' + history,
     author='Dave Pretty',
     author_email='david@launchlab.com.au',
-    url='https://github.com/LaunchlabAU/ll-dj-utils',
+    url='https://github.com/LaunchlabAU/launchlab-django-utils',
     packages=[
-        'll_dj_utils',
+        'launchlab_django_utils',
     ],
     include_package_data=True,
     install_requires=[],
     license="MIT",
     zip_safe=False,
-    keywords='ll-dj-utils',
+    keywords='launchlab-django-utils',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Framework :: Django',

@@ -15,7 +15,7 @@ before_install:
 install: pip install -r requirements_test.txt
 
 # command to run tests using coverage, e.g. python setup.py test
-script: coverage run --source ll_dj_utils runtests.py
+script: coverage run --source launchlab_django_utils runtests.py
 
 after_success:
   - codecov

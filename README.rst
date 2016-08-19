@@ -2,29 +2,29 @@
 LaunchLab Django Utils
 =============================
 
-.. image:: https://badge.fury.io/py/ll-dj-utils.png
-    :target: https://badge.fury.io/py/ll-dj-utils
+.. image:: https://badge.fury.io/py/launchlab-django-utils.png
+    :target: https://badge.fury.io/py/launchlab-django-utils
 
-.. image:: https://travis-ci.org/LaunchlabAU/ll-dj-utils.png?branch=master
-    :target: https://travis-ci.org/LaunchlabAU/ll-dj-utils
+.. image:: https://travis-ci.org/LaunchlabAU/launchlab-django-utils.png?branch=master
+    :target: https://travis-ci.org/LaunchlabAU/launchlab-django-utils
 
 Useful bits and pieces for Django projects.
 
 Documentation
 -------------
 
-The full documentation is at https://ll-dj-utils.readthedocs.org.
+The full documentation is at https://launchlab-django-utils.readthedocs.org.
 
 Quickstart
 ----------
 
 Install LaunchLab Django Utils::
 
-    pip install ll-dj-utils
+    pip install launchlab-django-utils
 
 Then use it in a project::
 
-    import ll_dj_utils
+    import launchlab_django_utils
 
 Features
 --------

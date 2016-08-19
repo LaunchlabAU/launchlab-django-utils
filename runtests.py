@@ -12,12 +12,12 @@ try:
                 "ENGINE": "django.db.backends.sqlite3",
             }
         },
-        ROOT_URLCONF="ll_dj_utils.urls",
+        ROOT_URLCONF="launchlab_django_utils.urls",
         INSTALLED_APPS=[
             "django.contrib.auth",
             "django.contrib.contenttypes",
             "django.contrib.sites",
-            "ll_dj_utils",
+            "launchlab_django_utils",
         ],
         SITE_ID=1,
         MIDDLEWARE_CLASSES=(),
