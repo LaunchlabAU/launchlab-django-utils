@@ -3,6 +3,12 @@
 History
 -------
 
+0.8.0 (2018-05-03)
+++++++++++++++++++
+
+* Add storage.StaticRootS3Boto3Storage
+* Add storage.MediaRootS3Boto3Storage
+
 0.7.0 (2018-05-03)
 ++++++++++++++++++
 
